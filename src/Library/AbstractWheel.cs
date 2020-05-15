@@ -2,7 +2,7 @@ using System;
 
 namespace Library
 {
-    public abstract class AbstractWheel : IWheel
+    public abstract class AbstractWheel
     {
         public abstract void Move();
 

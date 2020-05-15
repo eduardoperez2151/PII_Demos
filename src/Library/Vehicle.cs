@@ -8,12 +8,12 @@ namespace Library
     public class Vehicle
     {
         private Engine engine;
-        private List<IWheel> wheels;
+        private List<AbstractWheel> wheels;
 
         public Vehicle()
         {
             this.engine = new Engine();
-            this.wheels = new List<IWheel>();
+            this.wheels = new List<AbstractWheel>();
             SetDefaultWheels();
         }
 
